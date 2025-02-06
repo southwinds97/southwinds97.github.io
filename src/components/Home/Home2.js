@@ -24,9 +24,13 @@ function Home2() {
               저는 프로그래밍을 공부하면서 프로그래밍에 빠져버렸고 <br />
               그것이 제 삶의 한층 더 나아가게 해주었습니다.
               <br />
-              <br />저는 {" "}
+              <br />
+              저는{" "}
               <i>
-                <b className="purple"> Java, Spring Boot, Flutter, Html&CSS, React, OracleDB </b>
+                <b className="purple">
+                  {" "}
+                  Java, Spring Boot, Flutter, Html&CSS, React, OracleDB{" "}
+                </b>
               </i>
               와 같은 기술을 사용하여 프로젝트를 개발하고 있습니다.
               <br />
@@ -34,9 +38,7 @@ function Home2() {
               저의 관심분야는 &nbsp;
               <i>
                 <b className="purple">새로운 웹&앱 기술 및 제품개발 </b> 그리고{" "}
-                <b className="purple">
-                  클린 코드와 안정적인 서비스
-                </b>
+                <b className="purple">클린 코드와 안정적인 서비스</b>
                 입니다.
               </i>
               <br />
@@ -44,10 +46,7 @@ function Home2() {
               가능할 때마다 새로운 기술을 배우고 적용하는 것을 좋아하며,
               <b className="purple">Spring, React</b> 등의 언어와
               <i>
-                <b className="purple">
-                  {" "}
-                  Ajax, Rest API
-                </b>
+                <b className="purple"> Ajax, Rest API</b>
                 등의 기술을 사용하여
               </i>
               &nbsp; 웹 서비스를 개발하는 것을 좋아합니다. 또한
@@ -100,7 +99,7 @@ function Home2() {
                   <FaLinkedinIn />
                 </a>
               </li> */}
-              <li className="social-icons">
+              {/* <li className="social-icons">
                 <a
                   href="https://www.instagram.com/lhs_975/"
                   target="_blank"
@@ -109,7 +108,7 @@ function Home2() {
                 >
                   <AiFillInstagram />
                 </a>
-              </li>
+              </li> */}
             </ul>
           </Col>
         </Row>

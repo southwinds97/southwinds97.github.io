@@ -8,7 +8,7 @@ function Type() {
         strings: [
           "Backend Engineer",
           "Java Developer",
-          "Flutter Developer",
+          "Frontend Developer",
           "Clean Code Advocate",
         ],
         autoStart: true,
